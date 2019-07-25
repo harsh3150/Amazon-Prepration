@@ -11,8 +11,6 @@ public class stringRotation2Places{
 		System.out.println(rotate("amazon","azonam"));
 		System.out.println(rotate("amazon","harsh"));
 
-
-
 	}
 
 	private static boolean rotate(String s, String temp){
