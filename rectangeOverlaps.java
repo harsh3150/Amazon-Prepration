@@ -9,10 +9,15 @@ import java.util.*;
 public class rectangeOverlaps{
 	public static void main(String[] args) {
 	
-		point l1=new point (0,10);
+		/*point l1=new point (0,10);
 		point r1=new point (10,0);
 		point l2=new point (5,5);
-		point r2=new point (15,0);
+		point r2=new point (15,0);*/ //test case 1
+
+		point l1=new point (-3,3);
+		point r1=new point (4,-1);
+		point l2=new point (0,4);
+		point r2=new point (-3,5);  //test case 2
 
 		int x1=l1.x, y1=l1.y, x2=l1.x, y2=r1.y, x3=r1.x, y3=r1.y, x4=r1.x, y4=l1.y;
 
@@ -44,10 +49,6 @@ public class rectangeOverlaps{
 class point{
 	int x;
 	int y;
-
-	public point(){
-
-	}
 
 	public point(int x, int y){
 		this.x=x;
