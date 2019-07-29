@@ -11,7 +11,7 @@ public class pairOfProduct{
 	public static void main(String[] args) {
 		int []arr={10, 20, 9, 40};
 
-		int x=200;
+		int x=90;
 
 		int len=arr.length;
 
